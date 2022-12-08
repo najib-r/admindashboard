@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.container, .sidebar, .header, .content {
+    border: 1px solid black;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1 / 3;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
