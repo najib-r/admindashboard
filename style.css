@@ -39,6 +39,8 @@ body {
     grid-template-columns: 2fr 1fr;
     padding-left: 2rem;
     background-color: #eef2ff;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .projects {
@@ -46,7 +48,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    padding-bottom: 50px;
 }
 
 .projects > h2 {
@@ -56,9 +57,36 @@ body {
 .project {
     background-color: white;
     border-radius: 6px;
-    height: 10rem;
+    height: 15rem;
     width: 20rem;
+    padding: 0 1rem;
+    border-left: 7px solid #312e81;
 }
+
+.cards1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 6px;
+    margin-top: 26px;
+    margin-right: 20px;
+    padding: 1rem;
+    background-color: white;
+}
+
+hr {
+    border: 0.2px solid rgb(224, 222, 222);
+    width: 100%;
+}
+
+h2, h3, h4 {
+    margin: 0.67rem 0;
+}
+
+.announcements {
+    border: 1px solid black;
+    padding: 0;
+}
+
 
 
 
